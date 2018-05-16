@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  ZheXianTu
+//
+//  Created by ve2 on 2018/5/16.
+//  Copyright © 2018年 ve2. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZheXianTu-Bridging-Header.h"
+#import "UIColor+expand.h"
+
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* PrefixHeader_pch */
